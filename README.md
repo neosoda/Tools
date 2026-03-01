@@ -14,7 +14,6 @@
 
 **Performance** : L'image Docker est ultra-légère (28 MB), rapide à déployer et facile à auto-héberger.
 
-![TechSentinel Toolbox](docs-images/img.png)
 
 ## ✨ Fonctionnalités
 
