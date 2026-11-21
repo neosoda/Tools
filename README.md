@@ -158,6 +158,12 @@ Les contributions sont les bienvenues ! Vous pouvez aider en :
 - Améliorant la documentation
 - Soumettant des pull requests
 
+## Origine et attribution
+
+**TechSentinel Toolbox** reprend une base du projet open source [OmniTools](https://github.com/iib0011/omni-tools), créé par **Ibrahima Gaye Coulibaly**, puis adaptée pour l'écosystème TechSentinel. Le projet d'origine est publié sous **licence MIT** ; son copyright et les notices correspondantes doivent être conservés. Voir [LICENSE](LICENSE).
+
+Les développements et adaptations propres à TechSentinel ne remplacent pas les droits des contributeurs d'origine.
+
 ## 📧 Contact
 
 Pour toute question ou suggestion :
