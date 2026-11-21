@@ -1,10 +1,19 @@
 <div align="center">
-  <img src="src/assets/logo.png" width="220" />
+  <a href="https://tools.techsentinel.fr"><img src="docs/assets/techsentinel-toolbox-hero.svg" width="100%" alt="Bannière TechSentinel Toolbox — interface conceptuelle des outils image, PDF, texte et données"></a>
+  <br><br><img src="src/assets/logo.png" width="120" alt="Logo TechSentinel Toolbox" />
   <br /><br />
   <h1>TechSentinel Toolbox</h1>
-  <p>Une collection complète d'outils en ligne pour simplifier vos tâches quotidiennes</p>
+  <p><strong>Outils gratuits pour convertir, éditer, calculer et gagner du temps — dans votre navigateur.</strong></p>
+  <p><a href="https://tools.techsentinel.fr"><strong>Essayer les outils</strong></a> · <a href="#-fonctionnalités">Fonctionnalités</a> · <a href="#-installation--déploiement">Auto-hébergement</a> · <a href="#️-développement">Contribuer</a></p>
+  <p><a href="LICENSE"><img src="https://img.shields.io/github/license/neosoda/Tools?color=22c9bc" alt="Licence"></a> <img src="https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white" alt="Docker"> <img src="https://img.shields.io/badge/React-%2B%20TypeScript-4e9bdd?logo=react&logoColor=white" alt="React TypeScript"></p>
   <br />
 </div>
+
+> **Visuel :** la bannière présente les grandes familles d’outils, mais ne représente pas une capture d’écran de l’application.
+
+| 🖼️ **Médias** | 📄 **Documents** | 🛠️ **Utilitaires** |
+| :--- | :--- | :--- |
+| Images, vidéo, audio et conversion. | Fusion, découpe et édition PDF. | Texte, listes, dates, maths, JSON, CSV et XML. |
 
 ## 📋 À propos
 
@@ -12,7 +21,7 @@
 
 **Sécurité et confidentialité** : Tous les fichiers sont traités entièrement côté client. Rien ne quitte jamais votre appareil.
 
-**Performance** : L'image Docker est ultra-légère (28 MB), rapide à déployer et facile à auto-héberger.
+**Déploiement** : l’application est compilée avec Vite puis servie par Nginx dans une image Docker multi-étapes. Aucune taille fixe de l’image n’est garantie ici.
 
 
 ## ✨ Fonctionnalités
@@ -149,10 +158,24 @@ Les contributions sont les bienvenues ! Vous pouvez aider en :
 - Améliorant la documentation
 - Soumettant des pull requests
 
+## Origine et attribution
+
+**TechSentinel Toolbox** reprend une base du projet open source [OmniTools](https://github.com/iib0011/omni-tools), créé par **Ibrahima Gaye Coulibaly**, puis adaptée pour l'écosystème TechSentinel. Le projet d'origine est publié sous **licence MIT** ; son copyright et les notices correspondantes doivent être conservés. Voir [LICENSE](LICENSE).
+
+Les développements et adaptations propres à TechSentinel ne remplacent pas les droits des contributeurs d'origine.
+
 ## 📧 Contact
 
 Pour toute question ou suggestion :
 **[contact@techsentinel.fr](mailto:contact@techsentinel.fr)**
+
+## Questions fréquentes
+
+**Peut-on utiliser TechSentinel Toolbox sans installer de logiciel ?** Oui : ouvrez [tools.techsentinel.fr](https://tools.techsentinel.fr) depuis un navigateur moderne.
+
+**Peut-on auto-héberger cette boîte à outils ?** Oui, le `Dockerfile` et l'exemple Docker Compose sont fournis dans ce dépôt.
+
+**À qui s'adresse-t-elle ?** Aux particuliers, développeurs, administrateurs et équipes qui cherchent des convertisseurs et utilitaires web simples, sans multiplier les sites.
 
 ## 📜 Licence
 
